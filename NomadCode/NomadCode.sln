@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NomadCode.iOS", "NomadCode.iOS\NomadCode.iOS.shproj", "{7FD19D81-4788-4A97-9E50-81605EDE7A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NomadCode.iOSApp", "NomadCode.iOSApp\NomadCode.iOSApp.csproj", "{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}.Release|iPhone.Build.0 = Release|iPhone
+		{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{2833BBF7-902B-45CF-BE83-00AB0CFBB87C}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
