@@ -14,7 +14,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UIViewController subclass to instantiate and return.</typeparam>
 		public static T Instantiate<T> (this UIStoryboard storyboard)
 			where T : UIViewController
-			=> storyboard.InstantiateViewController (typeof (T).Name) as T;
+		=> storyboard.InstantiateViewController (typeof (T).Name) as T;
 
 
 		/// <summary>
@@ -25,7 +25,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UIViewController subclass to instantiate and return.</typeparam>
 		public static T Instantiate<T> (this UIStoryboard storyboard, string storyboardIdentifier)
 			where T : UIViewController
-			=> storyboard.InstantiateViewController (storyboardIdentifier) as T;
+		=> storyboard.InstantiateViewController (storyboardIdentifier) as T;
 
 
 		/// <summary>
@@ -34,7 +34,7 @@ namespace NomadCode.iOS
 		/// <param name="storyboard">The UIStoryboard containing the UIViewController subclass.</param>
 		/// <param name="storyboardIdentifier">The UIViewController subclass's Storyboard identifier.</param>
 		public static UIViewController Instantiate (this UIStoryboard storyboard, string storyboardIdentifier)
-			=> storyboard.InstantiateViewController (storyboardIdentifier) as UIViewController;
+		=> storyboard.InstantiateViewController (storyboardIdentifier) as UIViewController;
 
 
 		/// <summary>
@@ -48,7 +48,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UITableViewCell subclass to dequeue and return.</typeparam>
 		public static T Dequeue<T> (this UITableView tableView, NSIndexPath indexPath)
 			where T : UITableViewCell
-			=> tableView.DequeueReusableCell (typeof (T).Name, indexPath) as T;
+		=> tableView.DequeueReusableCell (typeof (T).Name, indexPath) as T;
 
 
 		/// <summary>
@@ -61,7 +61,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UITableViewCell subclass to dequeue and return.</typeparam>
 		public static T Dequeue<T> (this UITableView tableView, string reuseIdentifier, NSIndexPath indexPath)
 			where T : UITableViewCell
-			=> tableView.DequeueReusableCell (reuseIdentifier, indexPath) as T;
+		=> tableView.DequeueReusableCell (reuseIdentifier, indexPath) as T;
 
 
 		/// <summary>
@@ -75,7 +75,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UICollectionViewCell subclass to dequeue and return.</typeparam>
 		public static T Dequeue<T> (this UICollectionView collectionView, NSIndexPath indexPath)
 			where T : UICollectionViewCell
-			=> collectionView.DequeueReusableCell (typeof (T).Name, indexPath) as T;
+		=> collectionView.DequeueReusableCell (typeof (T).Name, indexPath) as T;
 
 
 		/// <summary>
@@ -88,7 +88,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UICollectionViewCell subclass to dequeue and return.</typeparam>
 		public static T Dequeue<T> (this UICollectionView collectionView, string reuseIdentifier, NSIndexPath indexPath)
 			where T : UICollectionViewCell
-			=> collectionView.DequeueReusableCell (reuseIdentifier, indexPath) as T;
+		=> collectionView.DequeueReusableCell (reuseIdentifier, indexPath) as T;
 
 
 		/// <summary>
@@ -104,7 +104,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UICollectionReusableView subclass to dequeue and return.</typeparam>
 		public static T Dequeue<T> (this UICollectionView collectionView, NSString elementKind, NSIndexPath indexPath)
 			where T : UICollectionReusableView
-			=> collectionView.DequeueReusableSupplementaryView (elementKind, typeof (T).Name, indexPath) as T;
+		=> collectionView.DequeueReusableSupplementaryView (elementKind, typeof (T).Name, indexPath) as T;
 
 
 		/// <summary>
@@ -121,7 +121,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UICollectionReusableView subclass to dequeue and return.</typeparam>
 		public static T Dequeue<T> (this UICollectionView collectionView, NSString elementKind, string reuseIdentifier, NSIndexPath indexPath)
 			where T : UICollectionReusableView
-			=> collectionView.DequeueReusableSupplementaryView (elementKind, reuseIdentifier, indexPath) as T;
+		=> collectionView.DequeueReusableSupplementaryView (elementKind, reuseIdentifier, indexPath) as T;
 
 
 		/// <summary>
@@ -137,7 +137,7 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UICollectionReusableView subclass to dequeue and return.</typeparam>
 		public static T Dequeue<T> (this UICollectionView collectionView, UICollectionElementKindSection elementKind, NSIndexPath indexPath)
 			where T : UICollectionReusableView
-			=> collectionView.DequeueReusableSupplementaryView (elementKind, typeof (T).Name, indexPath) as T;
+		=> collectionView.DequeueReusableSupplementaryView (elementKind, typeof (T).Name, indexPath) as T;
 
 
 		/// <summary>
@@ -154,6 +154,6 @@ namespace NomadCode.iOS
 		/// <typeparam name="T">The Type of the UICollectionReusableView subclass to dequeue and return.</typeparam>
 		public static T Dequeue<T> (this UICollectionView collectionView, UICollectionElementKindSection elementKind, string reuseIdentifier, NSIndexPath indexPath)
 			where T : UICollectionReusableView
-			=> collectionView.DequeueReusableSupplementaryView (elementKind, reuseIdentifier, indexPath) as T;
+		=> collectionView.DequeueReusableSupplementaryView (elementKind, reuseIdentifier, indexPath) as T;
 	}
 }
