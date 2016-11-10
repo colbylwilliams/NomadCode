@@ -10,8 +10,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\StoryboardExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\XamarinLaunch\XamarinLaunchView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\XamarinLaunch\ExampleViewController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\XamarinLaunch\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Views\XamarinLaunch\LaunchScreen.storyboard" />
+    <None Include="$(MSBuildThisFileDirectory)Views\XamarinLaunch\logo_xamarin_launch_start.imageset\Contents.json" />
+    <None Include="$(MSBuildThisFileDirectory)Views\XamarinLaunch\logo_xamarin_launch_start.imageset\logo_xamarin_launch_start.pdf" />
   </ItemGroup>
 </Project>
